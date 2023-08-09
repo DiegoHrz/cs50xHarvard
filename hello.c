@@ -13,7 +13,9 @@ do{
 
 }while (n < 9);
 
-
+for(int i = 0;start = end; i++){
+    start+= start/
+}
 
 
 printf("The number is %\n", n);
