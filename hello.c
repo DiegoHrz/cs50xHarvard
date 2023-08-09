@@ -12,3 +12,8 @@ do{
     end = get_init("End size: ")
 
 }while (n < 9);
+
+
+
+
+printf("The number is %\n", n);
