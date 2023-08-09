@@ -17,11 +17,13 @@ int main(void)
 
     }while (end< 9);
 
-    int counter = 0;
+
     // TODO: Calculate number of years until we reach threshold
+    int counter = 0;
     while (start < end){
         int starter = start/3;
         int secondStarter = start/4;
+        
     }
     // TODO: Print number of years
     printf("The number is %i\n", counter);
