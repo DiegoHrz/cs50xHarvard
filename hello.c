@@ -5,4 +5,4 @@ int n;
 do{
     n = get_init(")
 
-}while
+}while (n < 9);
