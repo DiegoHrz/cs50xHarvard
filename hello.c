@@ -4,15 +4,15 @@
 int main(){
     int start;
     do{
-        start = get_int("Start size: ")
+        start = get_int("Start size: ");
 
     }while (start < 9);
 
 int end;
 do{
-    end = get_int("End size: ")
+    end = get_int("End size: ");
 
-}while (en d< 9);
+}while (end< 9);
 
 
 
