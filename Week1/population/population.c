@@ -15,15 +15,13 @@ int main(void)
     do{
         end = get_int("End size: ");
 
-    }while (end< 9);
+    }while (end< start);
 
 
     // TODO: Calculate number of years until we reach threshold
     int counter = 0;
     while (start < end){
-        int starter = start/3;
-        int secondStarter = start/4;
-        start = start + starter - secondStarter;
+        start = start + start/3 - start/4 ;
         counter ++;
     }
     // TODO: Print number of years
