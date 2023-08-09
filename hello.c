@@ -3,10 +3,10 @@
 
 int main(){
     int start;
-do{
-    start = get_int("Start size: ")
+    do{
+        start = get_int("Start size: ")
 
-}while (start < 9);
+    }while (start < 9);
 
 int end;
 do{
