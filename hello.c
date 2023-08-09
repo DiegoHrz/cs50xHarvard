@@ -1,26 +1,29 @@
+#include <cs50.h>
+#include <stdio.h>
 
-
-
-int start;
+int main(){
+    int start;
 do{
-    start = get_init("Start size: ")
+    start = get_int("Start size: ")
 
-}while (n < 9);
+}while (start < 9);
 
 int end;
 do{
-    end = get_init("End size: ")
+    end = get_int("End size: ")
 
-}while (n < 9);
+}while (en d< 9);
 
 
-int counter = 0
 
 for(int i = 0;start >= end; i++){
     start+= start/3
     start-= start/4
-    counter++
 }
 
 
 printf("The number is %i\n", n);
+
+
+}
+
