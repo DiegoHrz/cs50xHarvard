@@ -23,7 +23,8 @@ int main(void)
     while (start < end){
         int starter = start/3;
         int secondStarter = start/4;
-        start = starter - secondStarter
+        start = start + starter - secondStarter;
+        counter ++;
     }
     // TODO: Print number of years
     printf("The number is %i\n", counter);
