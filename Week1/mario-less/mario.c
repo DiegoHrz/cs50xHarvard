@@ -3,7 +3,7 @@
 
 int main(void)
 {
-    int n
+    int n;
     do {
     n = get_int("Height: ");
   }while (n > 8 || n < 1) ;
