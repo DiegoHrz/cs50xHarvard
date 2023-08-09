@@ -13,9 +13,14 @@ do{
 
 }while (n < 9);
 
-for(int i = 0;start = end; i++){
-    start+= start/
+
+int counter = 0
+
+for(int i = 0;start >= end; i++){
+    start+= start/3
+    start-= start/4
+    counter++
 }
 
 
-printf("The number is %\n", n);
+printf("The number is %i\n", n);
